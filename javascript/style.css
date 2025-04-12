@@ -1,0 +1,29 @@
+body{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#countnum{
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+#button{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    color:white;
+    background-color: rgb(72, 72, 230);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color .5s;
+    box-shadow: 2px 2px 2px 1px rgba(13, 197, 22, 0.2);
+}
+
+.btn:hover{
+    background-color: rgb(229, 72, 72);
+}
